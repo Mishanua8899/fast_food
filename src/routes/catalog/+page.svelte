@@ -14,7 +14,7 @@
         {#each catalog as burger}
             <div class="burger">
                 <h1 class="header">{burger.name}</h1>
-                <img src="/src/lib/images/{burger.img}" alt="burger" class="img_burg">
+                <img src="../src/lib/images/{burger.img}" alt="burger" class="img_burg">
                 <button class="zakaz"><h1>Заказать</h1></button>
                 <div class="order-window">
                     <h2>Оформление заказа</h2>
@@ -82,7 +82,7 @@
     }
     
     .header {
-        font-size: 16px;
+        font-size: large;
     }
 
     .zakaz {
